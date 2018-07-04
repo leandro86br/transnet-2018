@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>http://transnet.net.br/</loc>
+  <lastmod>2018-07-04T13:13:48+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://transnet.net.br/index.html</loc>
+  <lastmod>2018-07-04T13:13:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://transnet.net.br/produtos.html</loc>
+  <lastmod>2018-07-04T13:00:55+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://transnet.net.br/catalogos.html</loc>
+  <lastmod>2018-07-04T13:00:55+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://transnet.net.br/treinamentos.html</loc>
+  <lastmod>2018-07-04T13:11:29+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://transnet.net.br/empresa.html</loc>
+  <lastmod>2018-07-04T13:00:55+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://transnet.net.br/contato.html</loc>
+  <lastmod>2018-07-04T13:00:55+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://transnet.net.br/inet/</loc>
+  <lastmod>2017-03-09T20:03:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://transnet.net.br/inet/produtos.html</loc>
+  <lastmod>2017-03-09T20:04:34+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://transnet.net.br/inet/index.html</loc>
+  <lastmod>2017-03-09T20:03:19+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://transnet.net.br/inet/contato.html</loc>
+  <lastmod>2017-03-09T20:03:20+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+
+
+</urlset>
