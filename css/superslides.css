@@ -7,25 +7,6 @@
 */
 
 #slides .caption{color: #fff}
-.slide-1 { background: linear-gradient(120deg, #002c55 0%,#001f3b 100%)}
-.slide-2 { background: linear-gradient(120deg, #002c55 0%, #4C4BBB 100%)}
-.slide-3 { background: linear-gradient(120deg, #4C4BBB 0%, #6f0000 100%)}
-/*
-.caption h1{font-size:3.8em; letter-spacing:-1px; font-weight: 400}
-.caption h2{font-size:2.4em; font-weight: 400}
-
-.caption h1.slide-1{color:#d5525b; text-shadow: 0 0 10px #fff}
-.caption h2.slide-1{text-shadow: 0 0 10px #fff}
-
-.caption h1.slide-2{color:#71a866; line-height:0.9;}
-.caption h2.slide-2{color: #fff}
-
-.caption h1.slide-4{color:#668aa8; text-shadow: 0 0 10px #fff}
-.caption h2.slide-4{text-shadow: 0 0 10px #fff}
-
-.caption h1.slide-5{color:#fff; line-height:0.9;}
-.caption h2.slide-5{color: #fff}
-*/
 
 .slides-container ul{padding: 0}
 .slides-container li{margin: 0}

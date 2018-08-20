@@ -99,10 +99,6 @@ table { font-size: 0.9em; }
 .catalogos a.ver-mais { padding: 20px 0; background-color: #ddd; color: #41484C }
 .catalogos a.ver-mais:hover { text-decoration: none;  background: #ccc }
 
-/*
-.line-tru { text-decoration: line-through }
-*/
-
 .container-wide { margin: 0 auto; max-width: 1800px } /* usado nas fotos das paginas de treinamentos e a empresa */
 
 .push-d-5 { margin-bottom: 5px } /* classe generica para alinhamento */ 

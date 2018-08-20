@@ -12,7 +12,7 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
 <link rel="stylesheet" href="css/custom.css">
 
-<title>Contato | Cabeamento, Telecom e Mais </title>
+<title>Cabeamento</title>
 
 </head>
 
@@ -99,7 +99,7 @@
 <section>
 <div class="container">
     <div class="row bg-dark-blue title relative rounded">
-        <div class="col"><h2 class="text-white">Contato</h2></div>
+        <div class="col"><h2 class="text-white">Cabo de Fibra Óptica</h2></div>
     </div>
 </div>
 </section>
@@ -114,7 +114,8 @@
             <div class="col-12">
                   <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                    <li class="breadcrumb-item active">Contato</li>
+                    <li class="breadcrumb-item active"><a href="produtos.html">Produtos</a></li>
+                    <li class="breadcrumb-item active">Cabeamento Óptico</li>
                   </ol>
             </div>
         </div>
@@ -126,66 +127,143 @@
 ******************************************************************* -->
 
 <section class="padding-pages">
-  <div class="container">
-    <div class="row">
-        <div class="col-lg-4">
-            <h3 class="text-blue">Escritório</h3>
-            <p>
-            Rua dos Campineiros, 260 A <br>
-            Mooca <br>
-            São Paulo - SP <br>
-            CEP 03167-020
-            </p>
-            <br>
-        </div>
-
-        <div class="col-lg-4">
-            <h3 class="text-blue">Estoque/Retirada</h3>
-            <p>
-            Rua Teresa, 134 <br> 
-            Água Rasa <br>
-            São Paulo-SP <br> 
-            CEP 03179-010 <br>
-            </p>
-            <br>
-        </div>
-
-        <div class="col-lg-4">
-            <h3 class="text-blue">Fone &amp; Email</h3>
-            <p>
-            <small>11</small> 2603-7070<br>
-            info@transnet.net.br
-            </p>
-            <br>
-        </div>
-        
-    </div><!-- ROW -->
-    </div>
-    
-    <div class="space"></div>
-
-<div class="container">
-    <div class="row bg-dark-blue title-pages relative rounded">
-        <div class="col"><h2 class="text-white">Localização</h2></div>
-    </div>
-</div>
-
-    
-    <div class="container-wide">
-        <div class="row no-gutters">
-            <div id="map" class="maps"></div>
-        </div>
-    </div>
-    
-    <div class="space"></div>
-    
     <div class="container">
-    <div class="row">
+		
+        <div class="row relative">
+		
 
-    </div>
-  </div><!-- CONTAINER -->
+            <div class="col-lg-3">
+                <h3><span class="badge badge-primary d-block text-left">Solicitar Orçamento</span></h3>
+
+                <form action="sendmail.php" method="post">
+
+                   <!-- nome -->
+                    <div class="form-group">
+                        <input type="text" name="nome" class="form-control" placeholder="Nome" required>
+                    </div>
+
+                    <!-- email -->
+                    <div class="form-group">
+                        <input type="email" name="email" class="form-control" placeholder="Email" required>
+                    </div>
+
+                    <!-- msg -->
+                    <div class="form-group">
+                        <textarea class="form-control" name="msg" rows="3" placeholder="Escreva mais detalhes..."></textarea>
+                    </div>
+
+                    <button type="submit" name="submit" class="btn btn-success rounded btn-block">Enviar</button>
+                    <br><br>
+                </form>
+
+
+               <!-- fone e email -->
+                <h3><span class="badge badge-secondary d-block text-left">Fone &amp; Email</span></h3>
+                <p>
+                    <small>11</small> 2603-7070<br>
+                    info@transnet.net.br
+                </p>
+                <br>
+
+             
+
+            </div><!-- col -->
+            
+            
+            
+
+            <div class="col-lg-9 produtos">
+                
+                
+                
+                   
+                <!-- cabeamento optico
+                ******************************************************************* -->
+                    
+                <div id="cabeamento-optico">
+                   
+                    <!--  Prysmian
+                    ++++++++++++++++++ -->
+                    
+                    <h3><span class="badge badge-primary d-block text-left">Veja Alguns Produtos</span></h3>
+                    <br>
+					
+                    <img src="img/fabricantes/prysmian-logo.png" alt="">
+                    <br><br>
+
+                    <div class="row">
+                        <div class="col-6 col-md-3">
+                            <img src="img/produtos/cabeamento-optico/1.jpg" class="img-fluid" alt="">
+                            <p class="text-center">Cabo Óptico Interno/Externo</p>
+                            <br>
+                        </div><!-- col -->
+
+                        <div class="col-6 col-md-3">
+                            <img src="img/produtos/cabeamento-optico/2.jpg" class="img-fluid" alt="">
+                            <p class="text-center">Cabo Óptico Antiroedor</p>
+                            <br>
+                        </div><!-- col -->
+
+                        <div class="col-6 col-md-3">
+                            <img src="img/produtos/cabeamento-optico/3.jpg" class="img-fluid" alt="">
+                            <p class="text-center">Cabo Óptico Auto Sustentado</p>
+                            <br>
+                        </div><!-- col -->
+
+                        <div class="col-6 col-md-3">
+                            <img src="img/produtos/catalogo-prysmian.jpg" class="img-fluid" alt="">
+                            <a href="catalogos.html#prysmian" class="text-center ver-mais">Ver Mais</a>
+                        </div><!-- col -->
+                    </div><!-- row -->
+                
+                   
+                    <div class="space"></div>
+                    
+                    <!--  inet
+                    ++++++++++++++++++ -->
+                
+                    <img src="img/fabricantes/inet-logo.png" width="90" alt="">
+                    <br><br>
+
+                    <div class="row">
+                        <div class="col-6 col-md-3">
+                            <img src="img/produtos/cabeamento-optico/4.jpg" class="img-fluid" alt="">
+                            <p class="text-center">Cordão Óptico LC/SC</p>
+                            <br>
+                        </div><!-- col -->
+
+                        <div class="col-6 col-md-3">
+                            <img src="img/produtos/cabeamento-optico/5.jpg" class="img-fluid" alt="">
+                            <p class="text-center">Pig Tails Ópticos</p>
+                            <br>
+                        </div><!-- col -->
+
+                        <div class="col-6 col-md-3">
+                            <img src="img/produtos/cabeamento-optico/6.jpg" class="img-fluid" alt="">
+                            <p class="text-center">DIO - Distribuidor Interno Óptico</p>
+                            <br>
+                        </div><!-- col -->
+
+                        <div class="col-6 col-md-3">
+                            <img src="img/produtos/catalogo-inet.jpg" class="img-fluid" alt="">
+                            <a href="http://transnet.net.br/inet" class="text-center ver-mais" target="_blank">Ver Mais</a>
+                        </div><!-- col -->
+                    </div><!-- row -->
+					<span>  <p style="background-color:#fff;">E muito mais! Solicite agora mesmo o seu orçamento.</p>
+
+					</span>
+					
+                    
+                </div><!-- cabeamento optico -->
+                      
+            </div><!-- col 9 -->
+            
+        </div><!-- row -->
+    </div><!-- container -->
 </section>
 
+
+<div id="js-stop"></div>
 
 <!-- Nav footer
 ******************************************************************* -->
@@ -270,6 +348,7 @@
 </div><!-- container -->
 </footer>
 
+
 <!-- footer bottom
  ***************************************** -->
 
@@ -300,186 +379,11 @@
         integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous"></script>
 
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
 <script src="js/functions.js" async defer></script>
-
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyArnM9ay1RZRoNhQsy_mtQQJgzZ9T1eByg&callback=initMap" async defer></script>
-
-<script>
-    function initMap() {
-
-        var transnet = {lat: -23.555227, lng: -46.595732};
-        var map = new google.maps.Map(document.getElementById('map'), {
-          center: transnet,
-          zoom: 16,
-          styles: [
-  {
-    "elementType": "geometry",
-    "stylers": [
-      {
-        "color": "#f5f5f5"
-      }
-    ]
-  },
-  {
-    "elementType": "labels.icon",
-    "stylers": [
-      {
-        "visibility": "off"
-      }
-    ]
-  },
-  {
-    "elementType": "labels.text.fill",
-    "stylers": [
-      {
-        "color": "#616161"
-      }
-    ]
-  },
-  {
-    "elementType": "labels.text.stroke",
-    "stylers": [
-      {
-        "color": "#f5f5f5"
-      }
-    ]
-  },
-  {
-    "featureType": "administrative.land_parcel",
-    "elementType": "labels.text.fill",
-    "stylers": [
-      {
-        "color": "#bdbdbd"
-      }
-    ]
-  },
-  {
-    "featureType": "poi",
-    "elementType": "geometry",
-    "stylers": [
-      {
-        "color": "#eeeeee"
-      }
-    ]
-  },
-  {
-    "featureType": "poi",
-    "elementType": "labels.text.fill",
-    "stylers": [
-      {
-        "color": "#757575"
-      }
-    ]
-  },
-  {
-    "featureType": "poi.park",
-    "elementType": "geometry",
-    "stylers": [
-      {
-        "color": "#e5e5e5"
-      }
-    ]
-  },
-  {
-    "featureType": "poi.park",
-    "elementType": "labels.text.fill",
-    "stylers": [
-      {
-        "color": "#9e9e9e"
-      }
-    ]
-  },
-  {
-    "featureType": "road",
-    "elementType": "geometry",
-    "stylers": [
-      {
-        "color": "#ffffff"
-      }
-    ]
-  },
-  {
-    "featureType": "road.arterial",
-    "elementType": "labels.text.fill",
-    "stylers": [
-      {
-        "color": "#757575"
-      }
-    ]
-  },
-  {
-    "featureType": "road.highway",
-    "elementType": "geometry",
-    "stylers": [
-      {
-        "color": "#dadada"
-      }
-    ]
-  },
-  {
-    "featureType": "road.highway",
-    "elementType": "labels.text.fill",
-    "stylers": [
-      {
-        "color": "#616161"
-      }
-    ]
-  },
-  {
-    "featureType": "road.local",
-    "elementType": "labels.text.fill",
-    "stylers": [
-      {
-        "color": "#9e9e9e"
-      }
-    ]
-  },
-  {
-    "featureType": "transit.line",
-    "elementType": "geometry",
-    "stylers": [
-      {
-        "color": "#e5e5e5"
-      }
-    ]
-  },
-  {
-    "featureType": "transit.station",
-    "elementType": "geometry",
-    "stylers": [
-      {
-        "color": "#eeeeee"
-      }
-    ]
-  },
-  {
-    "featureType": "water",
-    "elementType": "geometry",
-    "stylers": [
-      {
-        "color": "#c9c9c9"
-      }
-    ]
-  },
-  {
-    "featureType": "water",
-    "elementType": "labels.text.fill",
-    "stylers": [
-      {
-        "color": "#9e9e9e"
-      }
-    ]
-  }
-]
-        });
-
-        var marker = new google.maps.Marker({
-            position: transnet,
-            map: map
-        });
-
-    }
-</script>
 
 </body>
 </html>
