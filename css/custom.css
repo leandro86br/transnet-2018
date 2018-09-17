@@ -1,6 +1,5 @@
-/*
-    Author: Leandro.Zambelli@yahoo.com
- */
+/*   Leandro Zambelli
+*/
 
 
 @import url(https://fonts.googleapis.com/css?family=Montserrat:300,400);
@@ -34,7 +33,7 @@ a.btn[href^="mailto:"] { color: #fff }
   padding: 0.7em 0.4em;
 }
 
-.badge-primary { background: #002c55; }
+.badge-primary { background: /*#002c55*/ #063D61; }
 
 table { font-size: 0.9em; }
 
@@ -53,7 +52,7 @@ table { font-size: 0.9em; }
 
     }
 
-.list-group-item.active { z-index: 2; color: #fff; background-color: #002c55; border-color: #002c55; }
+.list-group-item.active { z-index: 2; color: #fff; background-color: /*#002c55*/ #063D61; border-color: /*#002c55*/ #063D61; }
 
 
 /* JS List
@@ -112,9 +111,9 @@ table { font-size: 0.9em; }
 .text-blue { color: #002C55 }
 .text-shadow { text-shadow: 0 0 10px #000 }
 
-.bg-gradient { background: linear-gradient(120deg, #002c55 0%,#001f3b 100%) } /* usado nos banner */
-.bg-dark-blue { background-color: #001F3B }
-.bg-blue { background-color: #002c55 }
+.bg-gradient { background: /*linear-gradient(120deg, #002c55 0%,#001f3b 100%)*/ linear-gradient(120deg, #063D61 0%,#124F77 100%) } /* usado nos banner */
+.bg-dark-blue { background-color: /*#001F3B*/ #063D61 }
+.bg-blue { background-color: /*#002c55*/ #124F77 }
 .bg-gray { background: #777 }
 .bg-overlay { background: rgba(0,0,0,0.2); height: 100% }
 
@@ -142,13 +141,13 @@ table { font-size: 0.9em; }
     bottom:0;
     right:0;
     padding:6px 23px 0px 27px;
-    background:#ddd;
-    color:#838383;
+    background:#063D61;
+    color:#fff;
     border-top-left-radius:4px;
     transition: ease 0.2s
 }
 .back-top:hover, .back-top:focus, .back-top:active{color:#fff; text-decoration: none}
-.back-top:hover{transition:all ease-in-out 0.1s; background:#002c55}
+.back-top:hover{transition:all ease-in-out 0.1s; background:#032E4A}
 
 .hide-me{visibility: hidden; opacity: 0} /* usado para esconder o botao de voltar ao topo ou qualquer outra coisa que precise esconder */
 
